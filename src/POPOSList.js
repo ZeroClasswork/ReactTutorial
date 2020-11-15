@@ -1,9 +1,15 @@
 import React from 'react';
+import POPOSSpace from './POPOSSpace';
 
 function POPOSList() {
   return (
     <div>
-      <h1>Content here...</h1>
+        <POPOSSpace />
+        <POPOSSpace />
+        <POPOSSpace />
+        <POPOSSpace />
+        <POPOSSpace />
+        <POPOSSpace />
     </div>
   )
 }
