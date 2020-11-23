@@ -1,8 +1,10 @@
 import React from 'react'
 
+import './Footer.css'
+
 function Footer(props) {
   return (
-      <p>Megan OBryan copyright 2020</p>
+      <p className="Footer">Megan OBryan copyright 2020</p>
   )
 }
 
