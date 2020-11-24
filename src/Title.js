@@ -14,8 +14,15 @@ function Title() {
         </div>
 
         <div>
-          <NavLink className="nav-link" to="/">List</NavLink>
-          <NavLink className="nav-link" to="/about">About</NavLink>
+          <NavLink
+            className="nav-link"
+            activeClassName="nav-link-active"
+            exact
+            to="/">List</NavLink>
+          <NavLink
+            className="nav-link"
+            activeClassName="nav-link-active"
+            to="/about">About</NavLink>
         </div>
       </header>
     </div>
